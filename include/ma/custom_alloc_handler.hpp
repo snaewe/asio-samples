@@ -25,10 +25,10 @@
 
 namespace ma {
 
-/// Wrapper that overrides alloctaion strategy of the source handler by the
+/// Wrapper that overrides allocation strategy of the source handler by the
 /// means provided by specified handler allocator.
 /**
- * "Alloctaion strategy" means handler related pair of free functions:
+ * "Allocation strategy" means handler related pair of free functions:
  * asio_handler_allocate and asio_handler_deallocate or the default ones
  * defined by Asio.
  * http://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/reference/Handler.html
@@ -39,7 +39,7 @@ namespace ma {
  *
  * Functors created by custom_alloc_handler:
  *
- * @li override Asio alloctaion strategy by the means provided by specified
+ * @li override Asio allocation strategy by the means provided by specified
  * handler allocator.
  * @li forward Asio execution strategy to the one provided by handler
  * parameter.
