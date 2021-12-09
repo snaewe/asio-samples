@@ -30,7 +30,7 @@ namespace detail {
  * Functors created by listed binders forward Asio allocation/execution
  * strategies to the ones provided by source handler.
  *
- * "Alloctaion strategy" means handler related pair of free functions:
+ * "Allocation strategy" means handler related pair of free functions:
  * asio_handler_allocate and asio_handler_deallocate or the default ones
  * defined by Asio.
  * http://www.boost.org/doc/libs/1_53_0/doc/html/boost_asio/reference/Handler.html
